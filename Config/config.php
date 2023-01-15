@@ -56,7 +56,7 @@ return [
                     '%mautic.mailer_custom_default_transport%',
                 ],
                 'tagArguments' => [
-                    \Mautic\EmailBundle\Model\TransportType::TRANSPORT_ALIAS => 'Multiple Transport (default: Sparkpost)',
+                    \Mautic\EmailBundle\Model\TransportType::TRANSPORT_ALIAS => 'Multiple Transport (default: Sendgrid)',
                     \Mautic\EmailBundle\Model\TransportType::FIELD_API_KEY => true,
                 ],
                 'tag' => 'mautic.email_transport',
@@ -65,6 +65,6 @@ return [
         ],
     ],
     'parameters' => [
-        'mailer_custom_default_transport' => 'mautic.transport.sparkpost'
+        'mailer_custom_default_transport' => 'mautic.transport.sendgrid_api'
     ]
 ];
