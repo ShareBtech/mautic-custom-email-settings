@@ -75,7 +75,7 @@ $view['slots']->set('headerTitle', 'Email API Keys');
               'MauticCoreBundle:Helper:tableheader.html.php',
               [
                   'sessionVar' => 'email',
-                  'text' => 'Service',
+                  'text' => 'ESP',
                   'class' => 'col-email-name',
               ]
           );
